@@ -3,9 +3,9 @@ import React from 'react'
 const VideoTitle = ({title,overview}) => {
   return (
     <div className="pt-36 pl-10 absolute w-screen aspect-video bg-gradient-to-r from-black text-white">
-      <h1 className="text-6xl font-extrabold">{title}</h1>
-      <h1 className="py-6 text-lg w-2/12 text-slate-300">{overview}</h1>
-      <div className="flex items-center">
+     <h1 className="text-3xl -mt-28  md:-mt-0  md:text-6xl font-extrabold">{title}</h1> 
+     <h1 className="hidden md:inline-block py-6 text-lg w-2/12 text-slate-300">{overview}</h1>
+      <div className="hidden  md:flex items-center">
       <button className="mr-3 bg-white px-8 py-3 rounded-md text-xl font-semibold text-black hover:bg-opacity-80"> 
       ▷ Play
       </button>
